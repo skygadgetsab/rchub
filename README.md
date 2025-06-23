@@ -33,10 +33,10 @@ RCHub lets you control
 - **Bluetooth wireless PARA trainer support**  
   Automatically connects to devices that support Bluetooth PARA trainer protocol and allows you to mix in these channels to PPM output. As such, RCHub can be used as Bluetooth-to-PPM bridge for radios w/o bluetooth support. Especially convenient when used with wireless head trackers, with or without USB joystick.
 
-- **Processing adds minimal delay**
+- **Processing adds minimal delay**  
   Just half of the PPM frame, or approximately 10ms.
 
-- **Simple firmware upgrades**
+- **Simple firmware upgrades**  
   [Download latest release](https://github.com/skygadgetsab/rchub/releases) and place the `.bin` file into "app" folder on Micro SD card.
 
 - **Fully autonomous** and provides power to connected joysticks.  
