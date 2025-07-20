@@ -114,13 +114,14 @@ Feel free to assemble your very own RCHub yourself!
 
 **A word of warning** before you start DIY though...  
 Assembling hardware, soldering 3.5mm jack socket, even 3D priting a case is easy.  
+
 The hard part is to make an app to start automatically on RPi boot (if you wish so), make sure no other heavy task is running on background that can affect PPM frame rate, configure OS to survive sudden loss of power (you probably want to have a simple switch to turn the thing on and off?), and other small tricks and tweaks.  
 
 Considerable effort was made to properly configure Raspberry OS (for the best performance, to survive power-offs, etc.) on SD cards supplied with [RCHubs purchased from our shop](https://skygadgets.shop/products/rchub). 
 
-Not sure if you have enough knowledge to configure RaspbianOS on SD card properly youself?  
-[Contact SkyGadgets](https://skygadgets.shop/pages/contact) and chat with us!  
-Reaching out at our [Facebook group](https://www.facebook.com/groups/242161055041994) is fine too.
+You can also get properly configured [RCHub SD Card Image](https://skygadgets.shop/products/rchub-sd-card-image), flash your existing Micro SD Card and use it in your build.
+
+Still not sure? [Contact us](https://skygadgets.shop/pages/contact) or reach out at our [Facebook group](https://www.facebook.com/groups/242161055041994).
 
 ### Hardware
 
@@ -130,7 +131,7 @@ You'll need at least these 3 components:
 - Micro SD card with RaspbianOS flashed on it  
   _A1 rating is recommended_
 
-Connect PPM output signal wire to `Pin 17` and ground to the ground pin nearby (see Raspberry Pi pinout).
+Connect PPM signal wire to `GPIO 17` pin and ground to the ground pin nearby (see Raspberry Pi pinout).
 
 ### Software
 
