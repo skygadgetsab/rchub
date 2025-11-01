@@ -43,7 +43,7 @@ RCHub lets you control
   Accepts well known and widely used **18650 Li-ion battery** (not included due to shipping restrictions).  
   Battery is optional as RCHub can be powered via USB-C from a power bank or a phone charger.
 
-See also [FEATURES.pdf]
+See also [FEATURES.pdf](FEATURES.pdf)
 
 ## User Manual
 
@@ -96,7 +96,7 @@ Be mindful, by increasing number of channels you make PPM frame larger and that 
 
 Bluetooth discovery can also be enabled or disabled here. Bluetooth is disabled by default.
 
-See also [USER_MANUAL.pdf]
+See also [USER_MANUAL.pdf](USER_MANUAL.pdf)
 
 ## Do It Yourself
 
@@ -137,7 +137,7 @@ By default, the application runs in **demo mode** and output is limited to 4 PPM
 In all other aspects the application is fully functional.  
 You are free to use "unactivated" device forever, as long as 4 output channels is enough for you (for basic flying AETR is quite enough).
 
-See [DEMO.txt] for more information and Q&A.
+See [DEMO.txt](DEMO.txt) for more information and Q&A.
 
 Please, [contact SkyGadgets](https://skygadgets.shop/pages/contact) to obtain an activation key for your device and unlock all 16 channels.
 
