@@ -1,0 +1,19 @@
+Bill Of Materials (BOM)
+=======================
+
+Raspberry Pi Zero 2W      | https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/ | Try source with headers soldered
+Geekworm X306 UPS Shield  | https://wiki.geekworm.com/X306                              | Modification needed! See WIRING.pdf
+Waveshare 1.44" LCD HAT   | https://www.waveshare.com/1.44inch-lcd-hat.htm
+Battery Li-Ion 18650 3.7v | https://en.wikipedia.org/wiki/18650_battery
+MicroSD Card (A1 or A2)   | https://www.kingston.com/en/memory-cards/canvas-select-plus-microsd-card-sdcs3
+
+Micro USB Adapter          | https://www.amazon.se/dp/B0CCJC1VV9/             | Joystick input
+3.5mm Jack Socket          | https://www.amazon.se/dp/B0BGQ5X9X8/             | PPM output
+USB-C 90deg Adapter        | https://www.amazon.se/dp/B09C8JP8HK/             | Charging or powering w/o battery
+Switch 6 Pin 2 Pos DPDT    | https://www.amazon.se/dp/B0DY5VBQFJ/             | Physically cuts off battery
+Audo Cable with 3.5mm Jack | https://www.amazon.se/dp/B088CZLHGL/             | Any good quality mono or stereo audio cable will do
+
+4xM2.5x12 & 6xM2x6 Bolts    |
+8xM2.5 & 6xM2 Brass Inserts | https://cnckitchen.store/collections/threaded-inserts | For 3D printed parts
+
+3D printed case, see STL folder and ASSEMBLY.txt

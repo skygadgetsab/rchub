@@ -43,6 +43,8 @@ RCHub lets you control
   Accepts well known and widely used **18650 Li-ion battery** (not included due to shipping restrictions).  
   Battery is optional as RCHub can be powered via USB-C from a power bank or a phone charger.
 
+See also [FEATURES.pdf]
+
 ## User Manual
 
 ### Main Buttons
@@ -94,18 +96,7 @@ Be mindful, by increasing number of channels you make PPM frame larger and that 
 
 Bluetooth discovery can also be enabled or disabled here. Bluetooth is disabled by default.
 
-## Components
-
-Full list of [RCHub](https://skygadgets.shop/products/rchub) components.
-
-- Raspberry Pi Zero 2 W
-- 1.44 inch LCD HAT with 5-way joystick and 3 buttons
-- Power board with place for 18650 Li-ion battery
-- Power switch
-- Micro-USB to USB A adapter
-- 3.5mm jack socket
-- Micro-SD Card
-- 3D printed case
+See also [USER_MANUAL.pdf]
 
 ## Do It Yourself
 
@@ -117,9 +108,9 @@ Assembling hardware, soldering 3.5mm jack socket, even 3D priting a case is easy
 
 The hard part is to make an app to start automatically on RPi boot (if you wish so), make sure no other heavy task is running on background that can affect PPM frame rate, configure OS to survive sudden loss of power (you probably want to have a simple switch to turn the thing on and off?), and other small tricks and tweaks.  
 
-Considerable effort was made to properly configure Raspberry OS (for the best performance, to survive power-offs, etc.) on SD cards supplied with [RCHubs purchased from our shop](https://skygadgets.shop/products/rchub). 
+Considerable effort was made to properly configure Raspberry OS (for the best performance, to survive power-offs, etc.) on SD cards supplied with [RCHubs purchased from our shop](https://skygadgets.shop/products/rchub).  
 
-You can also get properly configured [RCHub SD Card Image](https://skygadgets.shop/products/rchub-sd-card-image), flash your existing Micro SD Card and use it in your build.
+You can also get properly configured [RCHub SD Card Image](https://skygadgets.shop/products/rchub-sd-card-image), flash your existing microSD Card and use it in your build.
 
 Still not sure? [Contact us](https://skygadgets.shop/pages/contact) or reach out at our [Facebook group](https://www.facebook.com/groups/242161055041994).
 
@@ -128,10 +119,12 @@ Still not sure? [Contact us](https://skygadgets.shop/pages/contact) or reach out
 You'll need at least these 3 components:
 - Raspberry Pi computer (verified on [RPi Zero 2W](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/) and RPi 4)
 - [Waveshare's 1.44 LCD HAT](https://www.waveshare.com/wiki/1.44inch_LCD_HAT)
-- Micro SD card with RaspbianOS flashed on it  
-  _A1 rating is recommended_
+- microSD card with RaspbianOS flashed on it  
+  _A1 or A2 rating is recommended_
 
-Connect PPM signal wire to `GPIO 17` pin and ground to the ground pin nearby (see Raspberry Pi pinout).
+Connect PPM output signal wire to `GPIO17` and `GND` to the ground pin nearby (see Raspberry Pi pinout).
+
+You can also DIY an exact copy of the official [RCHub](https://skygadgets.shop/products/rchub), see "X306" folder.
 
 ### Software
 
@@ -140,9 +133,11 @@ The folder is visible as `/boot/firmware/app` from inside running RPi, so run th
 
 ### Activation
 
-By default, the application runs in **demo mode** and is limited to 4 PPM channels.  
+By default, the application runs in **demo mode** and output is limited to 4 PPM channels.  
 In all other aspects the application is fully functional.  
-You are free to use "unactivated" device forever, as long as 4 channels is enough for you (for basic flying AETR is quite enough).
+You are free to use "unactivated" device forever, as long as 4 output channels is enough for you (for basic flying AETR is quite enough).
+
+See [DEMO.txt] for more information and Q&A.
 
 Please, [contact SkyGadgets](https://skygadgets.shop/pages/contact) to obtain an activation key for your device and unlock all 16 channels.
 

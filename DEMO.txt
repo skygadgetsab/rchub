@@ -1,0 +1,36 @@
+DEMO Mode
+============================
+
+By default, RCHub starts in DEMO mode -- output is limited to 4 channels.
+RCHub in DEMO mode is fully functional and lets you test compatibility with your hardware.
+The number of channels is the only limitation.
+For some, 4 channels may be enough, feel free to use RCHub in DEMO mode for as long as you need.
+
+To unlock all 16 channels, please contact us (see README.txt) and we help you activate your RCHub.
+
+Questions & Answers
+----------------------------
+
+Q. What is the difference between DEMO mode and FULL mode?  
+A. DEMO mode is equal to FULL (unlocked, activated) mode,  
+   the only difference being the number of output channels is limited to 4 in DEMO mode.
+
+Q. Can I use RCHub in DEMO mode forever?
+A. Yes, there is no limitation on how long you use your RCHub in DEMO mode.  
+   For some 4 channels can be enough: RC car or a simple plane.  
+   Also DIY as many RCHubs you need and have them in DEMO mode, for free -- no problem.
+
+Q. Is activation linked to Raspberry Pi?  
+A. Yes, every Raspberry Pi must be unlocked/activated separately.
+
+Q. Can single RCHub SD Card be activated for multiple Raspberry Pi?  
+A. Yes, it is possible.
+
+Q. I want to build multiple RCHubs, how shall I do?
+A. Each RCHub (RPi) must be activated separately.  
+   Contact us to have an activation key generated for each of RPi.  
+   Then you can use RPi ID + Activation key either on different SD cards or  
+   even configure a single SD Card to work on all of them.
+
+Q. My Raspberry Pi dies, I replaced it and now RCHub is reverted to DEMO mode, what shall it do?  
+A. Please, contact us (see README.txt) and we help you.

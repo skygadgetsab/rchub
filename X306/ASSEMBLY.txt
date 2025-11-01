@@ -1,0 +1,59 @@
+Assembly
+============================
+
+3D Print the Enclosure
+----------------------------
+
+Nozzle: 0.2 to 0.4
+Layer height: 0.1 to 0.2
+Supports: no
+Material: PLA, PETG or ABS
+
+Please calibrate your printer to ensure dimensional accuracy before printing.  
+Properly calibrated printer also helps you avoid most of post-processing.
+
+Print all parts in STL folder. You'll need 4 (four) pieces of Display Standoff 8mm.  
+
+
+Hardware
+----------------------------
+
+For successful assembly, you need all hardware parts listed in the Bill of Materials, see BOM.txt
+
+Source them or analogs at your favourite shop; Amazon usually has them all.
+
+For the wiring and assembly tips, see WIRING.pdf
+
+
+Firmware
+----------------------------
+
+Do not have RCHub SD Card Image? Download it here: https://skygadgets.shop/products/rchub-sd-card-image
+
+Flash downloaded RCHub SD Card Image to MicroSD Card with help of Raspberry Pi Imager (or analog).
+https://www.raspberrypi.com/software/
+
+IMPORTANT!
+Simply copying over the image file to the SD Card will not work, the image need to be flashed.
+
+Insert the SD Card to the RCHub and power it on. The very first time may take a bit of time, 
+please be patient and do not switch the device off.
+The RCHub is fully initialised when you see the channels page after RCHub boot screen.
+Now it is safe to power off.
+
+See USER_MANUAL.pdf for further instructions.
+
+An alternative to the RCHub SD Card Image is to run freely avaialble RCHub binary on any manually configured Raspberry Pi.
+Download the binary from GitHub here: https://github.com/skygadgetsab/rchub
+
+
+Unlock full functionality
+----------------------------
+
+By default, RCHub starts in DEMO mode -- output is limited to 4 channels.
+Otherwise it is a fully functional mode that lets you test compatibility of your hardware with RCHub.
+For some, 4 channels may be enough, feel free to use RCHub in DEMO mode for as long as you need.
+
+To unlock all 16 channels, please contact us (see README.txt) and we help you activate your RCHub.
+
+See DEMO.txt for more information.
