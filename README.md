@@ -144,5 +144,5 @@ Please, [contact SkyGadgets](https://skygadgets.shop/pages/contact) to obtain an
 ## Contacts
 
 - Website: https://skygadgets.shop/pages/contact
-- Discord: https://discord.gg/VKW8NeUh
+- Discord: https://discord.gg/qg5zTtx3EQ
 - Facebook: https://www.facebook.com/groups/242161055041994
