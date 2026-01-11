@@ -141,3 +141,8 @@ See [DEMO.txt](DEMO.txt) for more information and Q&A.
 
 Please, [contact SkyGadgets](https://skygadgets.shop/pages/contact) to obtain an activation key for your device and unlock all 16 channels.
 
+## Contacts
+
+Website: https://skygadgets.shop/pages/contact
+Discord: https://discord.gg/VKW8NeUh
+Facebook: https://www.facebook.com/groups/242161055041994
