@@ -49,7 +49,7 @@ See also [FEATURES.pdf](FEATURES.pdf)
 
 ### Main Buttons
 
-- **Left button** is currently unassigned (it shall switch the current preset in some future version);
+- **Left button** switches between 4 configuratuion profiles; 
 - **Middle button** rotates the screen 90deg;
 - **Right button** switches pages: Channels, Raw device views, Settings
 
