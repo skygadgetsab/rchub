@@ -18,4 +18,4 @@ package:
 	
 	find "$(FOLDER)" -name ".DS_Store" -print0 | xargs -0 rm 
 
-	(cd $(FOLDER) && zip -r ../RCHub_DIY_X306.zip .)
+	(cd $(FOLDER) && zip -r ../RCHub-DIY-X306-$(shell date +%y%m%d).zip .)
