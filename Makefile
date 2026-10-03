@@ -11,7 +11,10 @@ package:
 	cp -r X306/STL  $(FOLDER)/
 	cp X306/*.txt   $(FOLDER)/
 	cp X306/*.pdf   $(FOLDER)/
-	
+
+	cp -r "RCHub X"/STL  $(FOLDER)/
+	cp "RCHub X"/*.txt   $(FOLDER)/
+
 	cp DEMO.txt 	     $(FOLDER)/
 	cp FEATURES.pdf    $(FOLDER)/
 	cp USER_MANUAL.pdf $(FOLDER)/
